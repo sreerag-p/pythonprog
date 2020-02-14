@@ -1,0 +1,6 @@
+#Write a program to print multiplication table of any number
+def multitable():
+    for i in range(1,11):
+        print(i,"*",n,"=",i*n)
+n=int(input())
+multitable()
