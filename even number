@@ -1,0 +1,8 @@
+#even numberWrite a program to print all even numbers between 1 to 100. - using while loop
+def even():
+    i=0
+    while(i<=n):
+        print(i,end=" ")
+        i=i+2
+n=int(input())
+even()
