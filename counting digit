@@ -1,0 +1,10 @@
+#Write a program to count number of digits in a number.
+def counting():
+    m=str(n)
+    o=[]
+    for i in range(0,len(m)):
+        o.append(int(m[i]))
+        print(sum(o))
+
+n=int(input())
+counting()
