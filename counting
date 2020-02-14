@@ -1,0 +1,9 @@
+#Write a program to find sum of first and last digit of a number.
+def counting():
+    m=str(n)
+    o=[]
+    o.append(int(m[-1]))
+    o.append(int(m[0]))
+    print(sum(o))
+n=int(input())
+counting()
